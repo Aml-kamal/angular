@@ -1,0 +1,7 @@
+
+export interface Product
+{
+mName:string;
+mPrice:number;
+mImg:string;
+}

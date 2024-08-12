@@ -1,0 +1,44 @@
+.gallery h2{
+    color: #2C3E50;
+    font-weight: 700;
+    font-size: 40px;
+}
+.gallery-icon{
+    position: relative;
+}
+.gallery-icon::after{
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 41%;
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: .5px;
+}
+.gallery-icon::before{
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 52%;
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: .5px;
+}
+.gallery-icon i{
+    color: #2C3E50;
+}
+.gallery p{
+    color: #2C3E50;
+    font-weight: 500;
+    font-size: 25px;
+}
+.gallery-row h3{
+    color: #2C3E50;
+    font-weight: 700;
+}
+.gallery-row span{
+    color: #2C3E50;
+    font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.footer , .footer .card{
+    background-color: #2C3E50 !important;
+    color: #fff !important;
+    border: 0;
+  padding: 40px;
+}
+
+
+.icons .icon{
+    width: 40px;
+    height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.foot{
+  background-color: #1A252F;
+}

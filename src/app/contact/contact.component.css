@@ -1,0 +1,42 @@
+.contact-icon{
+    position: relative;
+}
+.contact-icon::after{
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 42%;
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: .5px;
+}
+.contact-icon::before{
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 52%;
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: .5px;
+}
+.contact-icon i{
+    color: #2C3E50;
+}
+.contact h2{
+    color: #2C3E50;
+    font-weight: 700;
+    font-size: 40px;
+}
+.form-control{
+    border: 0;
+    border-bottom: 1px solid #dee2e6;
+  
+}
+.form-control:focus {
+    box-shadow:0 0 0 transparent ;
+}
+.btn{
+    background-color: #1ABC9C;
+}
